@@ -1,0 +1,28 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+h1 {
+    font-family: Helvetica;
+    font-size: 12vw;
+    text-align: center;
+    color: whitesmoke;
+    line-height: 90%;
+}
+p {
+    text-align: center;
+    color: blue;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.5vw;
+}
+a {
+    text-decoration: none;
+    color: yellowgreen;
+}
+#div1 {
+    margin-bottom: 0;
+}
+#div2 {
+    padding-top: -4em;
+}
