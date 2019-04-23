@@ -1,0 +1,12 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+#myContainer {
+    padding: 1em 0 0 1em;
+    display: block;
+}
+input {
+    width: 200px;
+}
