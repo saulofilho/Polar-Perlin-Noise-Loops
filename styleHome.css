@@ -3,6 +3,9 @@ html, body {
     padding: 0;
     background-color: black;
 }
+#myInputs {
+    padding: 10px 0 0 10px;
+}
 #myContainer {
     padding: 1em 0 0 1em;
     display: block;

@@ -9,16 +9,19 @@ var textSize;
 function setup() {
   var canvas = createCanvas(1250, 600);
   canvas.parent('myContainer');
-  textSi = createSlider(1, 300, 1, 0.01);
+  texto = createSlider(1, 300, 1, 0.01);
+  texto.parent('myInputs');
   radiusX = createSlider(0, 1000, 0, 0.1);
+  radiusX.parent('myInputs');
   radiusY = createSlider(0, 1000, 0, 0.1);
+  radiusY.parent('myInputs');
   style = createSlider(0.01, 4, 0.01, 0.01);
-  
+  style.parent('myInputs');
 }
 
 function draw() {
 
-  var textS = textSi.value();
+  var textS = texto.value();
   var rX = radiusX.value();
   var rY = radiusY.value();
   var sty = style.value();
@@ -49,4 +52,12 @@ function draw() {
     index = 0;
   }
 
+}
+
+function mousePressed (){
+  windowResized();
+}
+
+function windowResized(){
+  resizeCanvas(windowWidth, windowHeight);
 }
