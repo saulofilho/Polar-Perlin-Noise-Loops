@@ -7,9 +7,6 @@ html, body {
     padding: 10px 0 10px 10px;
 }
 button {
-    display: flex;
-    position: relative;
-    z-index: 99;
     background-color: black;
     color: wheat;
 }

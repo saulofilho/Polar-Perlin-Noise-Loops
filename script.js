@@ -78,22 +78,8 @@ function windowResized(){
   resizeCanvas(windowWidth, windowHeight);
 }
 
-
 $(document).ready(function() {
   $("button").click(function() {
     $("span").toggle();
   })
-
 })
-
-/*
-$('botaoId').on('click', function(e) {
-  $('botaoId')
-    .parent()
-    .find(' >.well')
-    .toggle()
-    .find('input')
-    .slider('relayout');
-    e.preventDefault();
-})
-*/
