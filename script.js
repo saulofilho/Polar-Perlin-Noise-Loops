@@ -16,6 +16,13 @@ function setup() {
   radiusY.parent('myInputs');
   style = createSlider(0.01, 4, 0.01, 0.01);
   style.parent('myInputs');
+  saveButton = createButton('save img');
+  saveButton.mousePressed(saveImg);
+  saveButton.parent('but');
+}
+
+function saveImg() {
+  save('polarPerlinNoise.png');
 }
 
 function draw() {
